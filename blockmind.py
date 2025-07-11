@@ -14,10 +14,6 @@ import hashlib
 import logging
 import json
 import openai
-from dotenv import load_dotenv
-import os
-
-load_dotenv()
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 TARGET_CHANNEL = os.getenv("TARGET_CHANNEL")
