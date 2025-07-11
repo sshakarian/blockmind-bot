@@ -1,0 +1,8 @@
+openai
+feedparser
+aiohttp
+beautifulsoup4
+python-dotenv
+urllib3==1.26.18
+six==1.16.0
+python-telegram-bot==13.15
