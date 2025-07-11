@@ -12,7 +12,7 @@ from aiogram import Bot, Dispatcher, types
 from aiogram.utils import executor
 
 # --- CONFIG ---
-BOT_TOKEN = os.getenv("TELEGRAM_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNEL_ID = os.getenv("TARGET_CHANNEL")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
