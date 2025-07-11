@@ -17,6 +17,7 @@ import openai
 from dotenv import load_dotenv
 
 load_dotenv()
+print("👉 OPENAI KEY:", OPENAI_API_KEY)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 TARGET_CHANNEL = os.getenv("TARGET_CHANNEL")
