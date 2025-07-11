@@ -15,13 +15,16 @@ import logging
 import json
 import openai
 from dotenv import load_dotenv
+import os
 
 load_dotenv()
-print("👉 OPENAI KEY:", OPENAI_API_KEY)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 TARGET_CHANNEL = os.getenv("TARGET_CHANNEL")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+print("👉 OPENAI KEY:", OPENAI_API_KEY)  # ✅ Սա գալիս ա ՀԵՏՈ
+
 
 if not BOT_TOKEN or not TARGET_CHANNEL or not OPENAI_API_KEY:
     raise ValueError("❌ Missing environment variables")
