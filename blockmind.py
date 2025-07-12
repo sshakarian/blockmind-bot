@@ -195,7 +195,7 @@ def build_message(title, desc, link, source, emoji):
         f"<b>{emoji} {html.escape(title).strip()}</b>\n\n"
         f"{html.escape(desc).strip()}\n\n"
         f'<i>📎 Ամբողջ հոդվածը՝  <a href="{link}">{source}</a></i>\n\n'
-        f'🧠 <a href="https://t.me/blockmindam">Blockmind | Crypto & AI Digest</a>'
+        f'🧠 <a href="https://t.me/blockmindam">Blockmind — Crypto & AI Insights</a>'
     )
 
 async def translate_text(text):
